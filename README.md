@@ -1,4 +1,4 @@
-#HEAD Patterns Study
+#HEAD First Design Patterns Study
 -----------------------------------------------------
  - 스터디 기간 : 2/28 ~ 4/10
  - 스터디 장소 : 서울대 입구역 AZ Story
