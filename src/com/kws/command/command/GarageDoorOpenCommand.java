@@ -1,4 +1,6 @@
-package com.kws.command;
+package com.kws.command.command;
+
+import com.kws.command.Command;
 
 public class GarageDoorOpenCommand implements Command {
 

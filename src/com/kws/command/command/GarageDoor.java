@@ -1,4 +1,4 @@
-package com.kws.command;
+package com.kws.command.command;
 
 public class GarageDoor {
 

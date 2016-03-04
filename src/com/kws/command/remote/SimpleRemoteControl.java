@@ -1,4 +1,6 @@
-package com.kws.command;
+package com.kws.command.remote;
+
+import com.kws.command.Command;
 
 public class SimpleRemoteControl {
 	Command slot;
