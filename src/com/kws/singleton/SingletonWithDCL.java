@@ -6,7 +6,7 @@ public class SingletonWithDCL {
 	
 	private SingletonWithDCL(){}
 	
-	public static synchronized SingletonWithDCL getInstance(){
+	public static SingletonWithDCL getInstance(){
 		if(uniqueInstance == null){
 			synchronized (SingletonWithDCL.class) {
 				if(uniqueInstance == null){
