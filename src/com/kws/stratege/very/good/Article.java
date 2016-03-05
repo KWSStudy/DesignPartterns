@@ -1,6 +1,5 @@
 package com.kws.stratege.very.good;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import com.kws.stratege.good.service.ArticleDML;
