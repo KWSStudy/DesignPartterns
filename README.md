@@ -13,25 +13,26 @@
 ## 스터디 진행
 ----------------------------------------------------
 2/28 
-- 옵저버 패턴 (이돈일)
-- 데코레이터 패턴 (이지훈)
+- [옵저버 패턴](https://github.com/KWSStudy/DesignPartterns/wiki/옵저버 패턴) (이돈일)
+- [데코레이터 패턴](https://github.com/KWSStudy/DesignPartterns/wiki/데코레이터 패턴) (이지훈)
 
 3/6
-- 팩토리 패턴 (노휘겸)
-- 싱글턴 패턴 (박민규)
+- [팩토리 패턴](https://github.com/KWSStudy/DesignPartterns/wiki/팩토리 패턴) (노휘겸)
+- [스트래티지 패턴](https://github.com/KWSStudy/DesignPartterns/wiki/스트래티지 패턴) (박민규)
+- [싱글턴 패턴](https://github.com/KWSStudy/DesignPartterns/wiki/싱글턴 패턴) (박민규)
 
 3/13
-- 커맨드 패턴 (이돈일)
-- 어댑터 패턴과 퍼사드 패턴 (이지훈)
+- [커맨드 패턴](https://github.com/KWSStudy/DesignPartterns/wiki/커맨드 패턴) (이돈일)
+- [어댑터 패턴과 퍼사드 패턴](https://github.com/KWSStudy/DesignPartterns/wiki/어댑터 패턴과 퍼사드 패턴) (이지훈)
 
 3/20 (노휘겸 결)
-- 템플릿 메소드 패턴 (박민규)
-- 이터레이터와 컴포지트 패턴 (이돈일)
+- [템플릿 메소드 패턴](https://github.com/KWSStudy/DesignPartterns/wiki/템플릿 메소드 패턴) (박민규)
+- [이터레이터와 컴포지트 패턴](https://github.com/KWSStudy/DesignPartterns/wiki/이터레이터와 컴포지트 패턴) (이돈일)
 
 3/27(이지훈 결) 
-- 스테이트 패턴 (노휘겸)
-- 프록시 패턴(박민규)
+- [스테이트 패턴](https://github.com/KWSStudy/DesignPartterns/wiki/스테이트 패턴) (노휘겸)
+- [프록시 패턴](https://github.com/KWSStudy/DesignPartterns/wiki/프록시 패턴) (박민규)
 
 4/3
-- 컴파운드 패턴(이돈일)
-- 나머지 패턴 (이지훈)
+- [컴파운드 패턴](https://github.com/KWSStudy/DesignPartterns/wiki/컴파운드 패턴) (이돈일)
+- [나머지 패턴](https://github.com/KWSStudy/DesignPartterns/wiki/나머지 패턴) (이지훈)
