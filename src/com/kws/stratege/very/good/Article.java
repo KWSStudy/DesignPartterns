@@ -15,7 +15,7 @@ public abstract class Article {
 	public boolean insertArticle(){
 		return articleDML.insertArticle();
 	}
-	public boolean updateArticle(){
+	public boolean updateArticle(){  
 		return articleDML.updateArticle();
 	}
 	public boolean deleteArticle(){
