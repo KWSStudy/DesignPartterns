@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * Created by jihoon on 2016. 3. 13..
  */
-public class DuckAdapter implements Duck{
+public class DuckAdapter implements Turkey{
     private Duck duck;
     private Random rand;
     public DuckAdapter(Duck duck){
@@ -13,9 +13,8 @@ public class DuckAdapter implements Duck{
         rand = new Random();
     }
 
-
     @Override
-    public void quack() {
+    public void gobble() {
         duck.quack();
     }
 
