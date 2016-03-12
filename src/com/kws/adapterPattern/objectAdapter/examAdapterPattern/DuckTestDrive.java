@@ -9,7 +9,8 @@ public class DuckTestDrive {
 
         WildTurkey turkey = new WildTurkey(); //야생칠면조 객체생성
 
-        Duck turkeyAdapter = new TurkeyAdapter(turkey);
+        Duck turkeyAdapter = new TurkeyAdapter(turkey);//칠면조를 오리로 변환하는 어댑터
+        Duck duckAdapter = new DuckAdapter(duck);       //오리를 칠면조로 변환하는 어댑터
 
         System.out.println("The Turkey says...");
         turkey.gobble();
@@ -17,6 +18,9 @@ public class DuckTestDrive {
 
         System.out.println("\nThe TurkeyAdapter says...");
         testDuck(duck);//오리객체를 파라미터로
+
+        System.out.println("\n The DuckAdapter says...");
+        testDuck(duckAdapter);
 
         System.out.println("\n The TurkeyAdapter says...");
         testDuck(turkeyAdapter);//칠면조 apdapter객체를
