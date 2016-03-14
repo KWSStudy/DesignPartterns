@@ -16,4 +16,6 @@ public class Light{
 		System.out.println(area + "light is off");
 	}
 	
+	
+	
 }
