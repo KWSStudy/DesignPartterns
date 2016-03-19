@@ -24,10 +24,10 @@ public class MenuTest {
 		dinerMenu.add(dessertMenu);
 		
 		dessertMenu.add(new MenuItem("애플파이", "바삭바삭한 크러스트에 바닐라 아이스크림이 얹혀 있는 애플파이", true, 1.59));
+		dessertMenu.add(new MenuItem("애플파이", "바삭바삭한 크러스트에 바닐라 아이스크림이 얹혀 있는 애플파이", false, 1.59));
 		dessertMenu.add(new MenuItem("애플파이", "바삭바삭한 크러스트에 바닐라 아이스크림이 얹혀 있는 애플파이", true, 1.59));
-		dessertMenu.add(new MenuItem("애플파이", "바삭바삭한 크러스트에 바닐라 아이스크림이 얹혀 있는 애플파이", true, 1.59));
-		dessertMenu.add(new MenuItem("애플파이", "바삭바삭한 크러스트에 바닐라 아이스크림이 얹혀 있는 애플파이", true, 1.59));
-		dessertMenu.add(new MenuItem("애플파이", "바삭바삭한 크러스트에 바닐라 아이스크림이 얹혀 있는 애플파이", true, 1.59));
+		dessertMenu.add(new MenuItem("애플파이", "바삭바삭한 크러스트에 바닐라 아이스크림이 얹혀 있는 애플파이", false, 1.59));
+		dessertMenu.add(new MenuItem("애플파이", "바삭바삭한 크러스트에 바닐라 아이스크림이 얹혀 있는 애플파이", false, 1.59));
 		
 		Waitress waitress = new Waitress(allMenus);
 		waitress.printMenu();

@@ -1,5 +1,7 @@
 package com.kws.composite;
 
+import java.util.Iterator;
+
 public class MenuComponent {
 	public void add(MenuComponent menuComponent) {
 		throw new UnsupportedOperationException();
@@ -24,6 +26,9 @@ public class MenuComponent {
 		throw new UnsupportedOperationException();
 	}
 	public void print(){
+		throw new UnsupportedOperationException();
+	}
+	public Iterator<MenuComponent> createIterator(){
 		throw new UnsupportedOperationException();
 	}
 }
