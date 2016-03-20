@@ -39,8 +39,4 @@ public class CompositeIterator implements Iterator<MenuComponent>{
 		}
 		return null;
 	}
-	
-	
-	
-
 }
