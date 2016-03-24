@@ -2,12 +2,12 @@ package com.kws.state.pattern;
 
 // 상태를 나타내는 객체를 이용하는 뽑기 기계 클래스
 public class GumballMachine {
-
   // 기계의 모든 가능한 상태를 객체로 선언
   State soldOutState;
   State noQuarterState;
   State hasQuarterState;
   State soldState;
+  State winnerState;
 
   State state = soldOutState;
   int count = 0;
@@ -17,6 +17,8 @@ public class GumballMachine {
     noQuarterState = new NoQuarterState(this);
     hasQuarterState = new HasQuarterState(this);
     soldState = new SoldState(this);
+    winnerState = new WinnerState(this);
+
     this.count = numberGumballs;
     if (numberGumballs > 0) {
       state = noQuarterState;
@@ -61,6 +63,10 @@ public class GumballMachine {
 
   State getSoldState() {
     return soldState;
+  }
+
+  State getWinnerState() {
+    return winnerState;
   }
 
   public int getCount() {

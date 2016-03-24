@@ -20,7 +20,6 @@ public class SoldState implements State {
   @Override
   public void turnCrank() {
     System.out.println("손잡이는 한 번만 돌려주세요.");
-
   }
 
   @Override
